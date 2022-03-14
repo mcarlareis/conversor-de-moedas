@@ -1,0 +1,63 @@
+body {
+    display: block;
+    font-family: "Roboto Mono", monospace;
+    background: #3a3838;
+    background-color:  #3a3838;
+  }
+
+  .container {
+    text-align: center;
+    padding: auto;
+    height: 75vh;
+  }
+  
+  .page-title {
+    color: #dd4509;
+    margin: 0 0 5px;
+    font-size: 50px;
+    padding: 80px 40px;
+  }
+  
+  .page-subtitle {
+    font-weight: bold;
+    background-color: #000000;
+    border-style: double;
+    padding: 10px;
+    border-color: #ffffff;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  
+  input {
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  label {
+    color: #dd4509;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #000000;
+    color: #ffff00;
+    
+  }
+  
+  .resultado {
+    font-weight: bold;
+    color: #009e00;
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+  }
