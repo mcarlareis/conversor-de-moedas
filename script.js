@@ -1,12 +1,12 @@
 function Converter() {
-    var valorElemento = document.getElementById("valor");
-    var valor = valorElemento.value;
-    var valorDolarNumerico = parseFloat(valor);
-    var valorReal = valorDolarNumerico * 5.35;
+    const valorElemento = document.getElementById("valor");
+    const valor = valorElemento.value;
+    const valorDolarNumerico = parseFloat(valor);
+    const valorReal = valorDolarNumerico * 5.35;
   
-    var elementoValorConvertido = document.getElementById("valorConvertido");
+    const elementoValorConvertido = document.getElementById("valorConvertido");
   
-    var valorConvertido = "valor convertido para(R$): " + valorReal;
-    elementoValorConvertido.innerHTML = valorConvertido;
+    const valorFinal = "valor convertido para(R$): " + valorReal.toFixed(2);
+    elementoValorConvertido.innerHTML = valorFinal;
   }
   
