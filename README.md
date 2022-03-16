@@ -1,7 +1,9 @@
 # conversor-de-moedas
-small project using javascript
+Small project using javascript
 
-Projeto iniciado junto ao curso imersão dev feito pela Alura, a fim de entender e contetualizar as principais ferramentas utilizadas atualmente (HTML, CSS e JAVASCRIPT).
+Project started with the immersion dev course made by Alura, in order to understand and contextualize the main tools currently used (HTML, CSS and JAVASCRIPT).
 
-Inicialmente, há apenas uma forma de conversão de moedas: R$ para U$.
+Initially, there is only one way to convert currencies: R$ to U$.
+
+
 
