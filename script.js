@@ -6,7 +6,7 @@ function Converter() {
   
     const elementoValorConvertido = document.getElementById("valorConvertido");
   
-    const valorFinal = "valor convertido para(R$): " + valorReal.toFixed(2);
+    const valorFinal = "valor convertido para(R$): " + valorReal.toLocaleString('pt-BR', { style: 'currency', currency:'BRL' });
     elementoValorConvertido.innerHTML = valorFinal;
   }
   
